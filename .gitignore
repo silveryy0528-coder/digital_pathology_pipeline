@@ -1,6 +1,12 @@
-data/
-experiments/
-outputs/*
-.venv
+# Virtual env
+.venv/
 venv/
+
+# Python
 __pycache__/
+*.pyc
+
+# Data / outputs
+data/
+outputs/
+experiments/
