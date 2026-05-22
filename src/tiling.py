@@ -29,3 +29,7 @@ def print_tile_info(tiles):
 def is_blank_tile(tile, threshold=220):
     tile_np = np.array(tile)
     return np.mean(tile_np) > threshold
+
+
+def save_tile(tile, save_path):
+    tile.save(save_path)
